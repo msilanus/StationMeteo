@@ -7,3 +7,5 @@ r = http.request('GET',url_param)
 reponse=json.loads(r.data.decode('utf-8'))
 print(reponse)
 print(type(reponse))
+
+
