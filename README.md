@@ -19,7 +19,7 @@ Ecrire un script python pour :
 - Afficher la température en °C (l'API fournie la température en **K** (Kelvin) !)
 - Afficher l'humidité relative
 - Afficher la pression atmosphérique (l'API fournie la pression en **hpa** (hecto Pascal))
-- Afficher la vitesse du vente et son orientation
+- Afficher la vitesse du vent et son orientation
 
 ## Interroger l'API
 

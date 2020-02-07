@@ -8,4 +8,6 @@ reponse=json.loads(r.data.decode('utf-8'))
 print(reponse)
 print(type(reponse))
 
-
+temperatureK = reponse['main']['temp']
+temperatureC = temperatureK - 273.15
+print(str(round(temperatureC,2))+"°C")
